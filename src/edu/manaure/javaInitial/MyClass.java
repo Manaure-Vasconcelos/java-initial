@@ -12,6 +12,10 @@ public class MyClass {
 
         String fullName = fullName(first_name, last_name);
         System.out.println(fullName);
+
+        Exercise smartTv = new Exercise(); // intancia classe
+
+        smartTv.decreaseVolume(); // chama metodos
     }
 
     public static String fullName (String first_name, String last_name) {
